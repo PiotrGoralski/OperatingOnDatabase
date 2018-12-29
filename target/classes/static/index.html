@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Operowanie na bazie danych</title>
+</head>
+<body>
+
+    <h1>Należy zmieniać parametry w adresach URL żeby wyłuskać odpowiednie dane</h1>
+    <h2>Client Entity</h2>
+    <ul>
+	    <li><a href="http://localhost:8080/api/clients">getAll</a></li>
+	    <li><a href="http://localhost:8080/api/clients/1">getById</a></li>
+	    <li><a href="http://localhost:8080/api/clients/name/Pavlo">getByClientName</a></li>
+	    <li><a href="http://localhost:8080/api/clients/firstName/lastName/Pavlo/Smith">getByClientFirstAndLastName</a></li>
+	    <li><a href="http://localhost:8080/api/clients/firstName/age/Piotr/20">getByClientNameAndAge</a></li>
+	    <li><a href="http://localhost:8080/api/clients/ageLessThan/23">getByClientLessThanAge</a></li>
+	    <li><a href="http://localhost:8080/api/clients/ageBetween/28/35">getByClientBetweenAge</a></li>
+	    <li><a href="http://localhost:8080/api/clients/6orMoreProducts">getByClientWithXorMoreProducts</a></li>
+	</ul>
+	
+	<h2>Product Entity</h2>
+    <ul>
+	    <li><a href="http://localhost:8080/api/product">findAll</a></li>
+	    <li><a href="http://localhost:8080/api/product/4">getById</a></li>
+	    <li><a href="http://localhost:8080/api/product/name/computer">getByName</a></li>
+	    <li><a href="http://localhost:8080/api/product/priceBetween/30,200">getByPriceBetween</a></li>
+	    <li><a href="http://localhost:8080/api/product/nameEnds/er">findAllByNameEndingWith</a></li>
+    </ul>
+    
+    <h2>ShoppingCart Entity</h2>
+    <ul>
+    	<li><a href="http://localhost:8080/api/shoppingCart/all/3">findAllByClient</a></li>
+    	<li><a href="http://localhost:8080/api/shoppingCart/price/3">findSumPriceByClient</a></li>
+    	<li><a href="http://localhost:8080/api/shoppingCart/Bil/Smith/pas1">findAllForClientWithPassword</a></li>
+    	<li><a href="http://localhost:8080/api/shoppingCart/Bil/Smith/pas1/monitor">findAllForProductAndClientWithPassword</a></li>
+    	<li><a href="http://localhost:8080/api/shoppingCart/find/printer/2">findByNameAndMinimumAmount</a></li>
+    	<li><a href="http://localhost:8080/api/shoppingCart/add/Bil/Smith/pas1/computer/2">addNewPurchase</a></li>
+    </ul>
+    
+</body>
+</html>

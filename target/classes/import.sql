@@ -1,0 +1,65 @@
+INSERT INTO `sklep`.`clients` (`first_name`, `last_name`, `age`, `password`) VALUES ('Bil', 'Smith', 22, 'pas1');
+INSERT INTO `sklep`.`clients` (`first_name`, `last_name`, `age`, `password`) VALUES ('Jack', 'Anderson', 34, 'pas1');
+INSERT INTO `sklep`.`clients` (`first_name`, `last_name`, `age`, `password`) VALUES ('Pavlo', 'Smith', 23, 'pas1');
+INSERT INTO `sklep`.`clients` (`first_name`, `last_name`, `age`, `password`) VALUES ('Piotr', 'Great', 29, 'pas1');
+INSERT INTO `sklep`.`clients` (`first_name`, `last_name`, `age`, `password`) VALUES ('Pavlo', 'Beauty', 27, 'pas1');
+INSERT INTO `sklep`.`clients` (`first_name`, `last_name`, `age`, `password`) VALUES ('Eva', 'Morgan', 33, 'pas1');
+INSERT INTO `sklep`.`clients` (`first_name`, `last_name`, `age`, `password`) VALUES ('Pavlo', 'Lizard', 32, 'pas1');
+INSERT INTO `sklep`.`clients` (`first_name`, `last_name`, `age`, `password`) VALUES ('Ada', 'Nowak', 45, 'pas1');
+INSERT INTO `sklep`.`clients` (`first_name`, `last_name`, `age`, `password`) VALUES ('Monica', 'Pius', 19, 'pas1');
+INSERT INTO `sklep`.`clients` (`first_name`, `last_name`, `age`, `password`) VALUES ('Nicol', 'Smith', 23, 'pas1');
+
+insert into `sklep`.`product` (`product_name`, `product_price`, `product_details`) values ('computer', 2500.0, 'It is for learning')
+insert into `sklep`.`product` (`product_name`, `product_price`, `product_details`) values ('mouse', 55.5, 'Not this alive!!!')
+insert into `sklep`.`product` (`product_name`, `product_price`, `product_details`) values ('keyboard', 99.99, 'Good luck in Games')
+insert into `sklep`.`product` (`product_name`, `product_price`, `product_details`) values ('printer', 250.00, 'For daily problems')
+insert into `sklep`.`product` (`product_name`, `product_price`, `product_details`) values ('rose', 10.0, 'The best for your beloved')
+insert into `sklep`.`product` (`product_name`, `product_price`, `product_details`) values ('lile', 7.0, 'Better for mother-in-law')
+insert into `sklep`.`product` (`product_name`, `product_price`, `product_details`) values ('dool', 22.99, 'Good present for little girls')
+insert into `sklep`.`product` (`product_name`, `product_price`, `product_details`) values ('pen', 5.0, 'Just a pen')
+insert into `sklep`.`product` (`product_name`, `product_price`, `product_details`) values ('pencil', 4.99, 'If you do not like pen')
+insert into `sklep`.`product` (`product_name`, `product_price`, `product_details`) values ('door', 599.99, 'Safety first')
+insert into `sklep`.`product` (`product_name`, `product_price`, `product_details`) values ('socks', 20.99, 'If you do not want to freeze your feet')
+insert into `sklep`.`product` (`product_name`, `product_price`, `product_details`) values ('monitor', 400.00, 'Must have to start programming')
+
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 1, 2)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (4, 1, 4)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 1, 8)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (2, 1, 12)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 1, 3)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (3, 2, 4)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (3, 2, 9)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (2, 2, 2)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 2, 5)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (2, 2, 8)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 3, 3)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (4, 3, 11)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (9, 3, 2)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 4, 4)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 4, 8)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (2, 4, 7)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 5, 6)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (2, 6, 8)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 6, 3)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (4, 6, 1)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (3, 6, 7)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 7, 9)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 7, 3)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (2, 7, 10)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 7, 8)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (4, 8, 12)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (9, 8, 2)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 8, 4)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 8, 6)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (2, 8, 1)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 8, 5)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (2, 9, 4)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 9, 9)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (4, 9, 11)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (9, 10, 2)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 10, 4)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 10, 3)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (2, 10, 5)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 10, 6)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (2, 10, 8)
+insert into `sklep`.`shopping_cart` (`amount`, `id_client`, `id_product`) values (1, 10, 10)
